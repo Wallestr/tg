@@ -29,7 +29,7 @@
     color2: 0xff9472,
     birdSize: 0.80,
     wingSpan: 40.00,
-    speedLimit: 10.00,
+    speedLimit: 20.00,
     separation: 100.00,
     alignment: 100.00,
     cohesion: 100.00,
