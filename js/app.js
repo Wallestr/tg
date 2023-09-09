@@ -27,7 +27,7 @@
     backgroundColor: 0xFDF4E3 ,
     color1: 0xf2709c,
     color2: 0xff9472,
-    birdSize: 1.00,
+    birdSize: 0.80,
     wingSpan: 40.00,
     speedLimit: 10.00,
     separation: 100.00,
