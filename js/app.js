@@ -37,7 +37,7 @@
   })
 
   VANTA.BIRDS({
-    el: "#carouselExampleIndicators",
+    el: "#carouselExample",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
