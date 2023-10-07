@@ -14,6 +14,7 @@
 //     backgroundColor: 0x#fdf4e3  
     
 //   })
+ 
 
   VANTA.BIRDS({
     el: "#introo",
@@ -27,9 +28,9 @@
     backgroundColor: 0xFDF4E3 ,
     color1: 0xf2709c,
     color2: 0xff9472,
-    birdSize: 0.80,
+    birdSize: 1.00,
     wingSpan: 40.00,
-    speedLimit: 20.00,
+    speedLimit: 8.00,
     separation: 100.00,
     alignment: 100.00,
     cohesion: 100.00,

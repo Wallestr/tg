@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
 .body{
+
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
 
     font-size: 15px;
     line-height: 1.6;
+    
     
 }
 .intro{
@@ -12,15 +20,17 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
+    
 
-    background:  #FDF4E3;
+    background: #928c88 ; /*#cfc4bd  #FDF4E3*/
     -webkit-background-size: cover;
     background-size: cover;
 }
 
+
 .intro_title{
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 65px;
+    font-weight: 550;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
@@ -43,6 +53,7 @@
     width: 100%;
     max-width: 880px;
     margin: 0 auto;
+    margin-top: 50px;
 
     text-align: center;
 }
@@ -53,7 +64,7 @@
     font-size: 68px;
     color: #fff;
     text-align: center;
-
+    
 }
 
 .img {
@@ -81,8 +92,33 @@ a{
   padding: 10px;
   letter-spacing: 2px;
   transition: all .25s;
+  
 }
 
 a:hover{
   letter-spacing: 15px;
 }
+
+@media( max-width: 500px){
+
+    .img {
+        margin: 10px auto 20px;
+        display: block;
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro_title{
+        font-size: 50px;
+    }
+
+    .wrapper{
+  
+        margin: 100px auto;
+        /* top: 95%;
+        left: 50%; */
+        /* transform: translate(-50%, -50%); */
+      }
+}
+
+
