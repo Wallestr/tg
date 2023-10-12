@@ -21,7 +21,30 @@
             
             <div class="card-title">короче давай сюда
 
-              <p style="font-weight: 300; font-size: 15px; margin: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate vitae perspiciatis, quam quidem placeat.</p>
+              <p style="font-weight: 300; font-size: 15px; margin: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate vitae perspiciatis, quam quidem placeat</p>
+
+            </div>
+
+            <div class="btn-card">
+              <a class="btncard" href="#">узнать</a>
+            </div>
+
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      <div class="carousel-item ">
+
+        <div class="wrapper">
+          <div class="card">
+
+            <img class="card-img" src="/assets/img/sticker.webp" alt="">
+            
+            <div class="card-title">та самая ностальжи 
+
+              <p style="font-weight: 300; font-size: 15px; margin: 10px;">Те самые фотографии связанные с какими-либо хорошими воспоминаниями </p>
 
             </div>
 
@@ -31,35 +54,16 @@
 
           </div>
         </div>
-      </div>
-      <div class="carousel-item active">
-
-        <div class="wrapper">
-          <div class="card">
-
-            <img class="card-img" src="/assets/img/sticker.webp" alt="">
-            
-            <div class="card-title">короче давай сюда
-
-              <p style="font-weight: 300; font-size: 15px; margin: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate vitae perspiciatis, quam quidem placeat.</p>
-
-            </div>
-
-            <div class="btn-card">
-              <a class="btncard" href="#">узнать</a>
-            </div>
-
-          </div>
-        </div>
 
         
-
+        <!-- Вот и стала ты на год старше аболтус. я долго думал что можно сделать такого особенного и месяца два назад мне пришла эта идея с того времени было много раздумий и вариантов воплотить это. И, знаешь, я решил создать что-то по-настоящему теплое и уютное, можно сказать, как наш с тобой свой собственный сайт времени и ностальгии. Я собрал здесь всё, что считаю самым забавным, трогательным, и даже  странным из наших воспоминаний. Конечно, невозможно вместить сюда абсолютно всё, потому что у нас этого слишком много! Пусть этот сайт напомнит  о наших приятных моментах и подарит улыбки в этот особенный день! -->
         
 
       </div>
-      <div class="carousel-item ">
+      <div class="carousel-item active maintext ">
         <img class="dog" src="assets/img/sticker_vk_spotty_023.png" width="100px" alt="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis reiciendis vero beatae exercitationem excepturi tempora sit, non ut, necessitatibus quaerat fugit, pariatur iure? Error?
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deserunt, dolorum illum eligendi iusto libero facilis, atque quae vel repudiandae odio odit aut eius! Alias.
+      
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -74,16 +78,42 @@
 
   
   
-  
 
     <style> 
+    .carousel-item{
+      top: 50%;
+      transform: translate(0, -50%); 
+      width: 100%;
 
+    }
     
-
+    .maintext{
+      padding: 25px;
+      color: aliceblue;
+      
+    
+    }
     .dog{
       display: block;
       margin: auto;
+      margin-bottom: 15px;
+      
     }
+
+    /* .carousel-item{
+    
+    opacity:0 ;
+    transition: opacity 1s ease-out;
+    }
+
+    .carousel-item:hover{
+    
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    }
+  } */
+
+    
 
     .carousel-control-prev-icon{
       color: black;
@@ -138,13 +168,15 @@
     }
     .card {
     
-    background-color: #333;
+    background-color: #33255a;
+    text-align: center;
     
     width: 250px;
     border-radius: 20px;
     color: #fff;
     padding: 20px;
-    box-shadow: 5px 5px 15px #434040;
+    box-shadow: 5px 5px 15px #474747;
+    opacity: 95%;
     }
 
     .card-title{
@@ -152,6 +184,7 @@
       border-radius: 15px;
       margin-top: 20px;
       font-size: 20px;
+      
       
     }
 
@@ -179,13 +212,13 @@
 
       .card {
     
-        background-color: #333;
+        
         
         width: 200px;
         border-radius: 20px;
-        color: #fff;
+        
         padding: 20px;
-        box-shadow: 5px 5px 15px #434040;
+       
         }
 
     .card-title{
