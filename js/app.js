@@ -55,7 +55,7 @@
   })
 
   VANTA.BIRDS({
-    el: "#carouselExample",
+    el: "#carouselExampe",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
@@ -66,14 +66,16 @@
     backgroundColor: 0x7192f ,
     color1: 0x921fdc,
     color2: 0x1b41c0,
-    birdSize: 0.80,
+    birdSize: 0.70,
     wingSpan: 40.00,
     speedLimit: 10.00,
     separation: 100.00,
     alignment: 100.00,
     cohesion: 100.00,
-    quantity: 5.00
+    quantity: 4.00
   })
+
+
   // mouseControls: true,
   // touchControls: true,
   // gyroControls: false,
@@ -113,4 +115,24 @@
     quantity: 5.00
   })
 
+  VANTA.BIRDS({
+    el: "#opa",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0x7192f ,
+    color1: 0x921fdc,
+    color2: 0x1b41c0,
+    birdSize: 0.70,
+    wingSpan: 40.00,
+    speedLimit: 10.00,
+    separation: 100.00,
+    alignment: 100.00,
+    cohesion: 100.00,
+    quantity: 4.00
+  })
   
